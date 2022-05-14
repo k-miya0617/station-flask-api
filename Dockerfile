@@ -11,6 +11,8 @@ RUN apt-get install -y ffmpeg
 RUN pip install Flask
 RUN pip install pydub
 RUN pip install ffmpeg-python
+RUN pip install mutagen
+RUN pip install pillow
 
 RUN python --version
 
